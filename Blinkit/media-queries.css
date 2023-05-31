@@ -1,0 +1,57 @@
+@media screen and (max-width: 980px) {
+
+
+    .nav-time{
+        visibility: hidden;
+    }
+    .hero-section{
+        overflow: hidden;
+
+    }
+    .hero-container img{
+       background-size: cover;
+    }
+    .trending-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .dairy-h2{
+        margin-left: 50px;
+    }
+
+    .dairy-section{
+        margin: var(--margin-primary);
+        padding: var(--padding-secondary);
+        gap: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:780px) {
+    .navbar{
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .nav-search{
+        visibility: hidden;
+    }
+
+    .trending-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .card-section{
+        flex-wrap: wrap;
+    }
+
+    .dairy-section{
+        flex-wrap: wrap;
+    }
+
+}
